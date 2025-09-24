@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="10">
+
+    <test verbose="2" preserve-order="true" name="ChromeTest1">
+        <parameter name="browser" value="chrome_win10"/>
+        <parameter name="os" value="windows"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="ChromeTest">
+        <parameter name="browser" value="chrome_win11"/>
+        <parameter name="os" value="windows"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="FirefoxTest1">
+        <parameter name="browser" value="firefox_win"/>
+        <parameter name="os" value="windows"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="FirefoxTest2">
+        <parameter name="browser" value="firefox_mac"/>
+        <parameter name="os" value="windows"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="EdgeTest1">
+        <parameter name="browser" value="edge_win"/>
+        <parameter name="os" value="windows"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true" name="EdgeTest2">
+        <parameter name="browser" value="edge_mac"/>
+        <parameter name="os" value="mac"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="SafariTest1">
+        <parameter name="browser" value="safari_tahoe"/>
+        <parameter name="os" value="mac"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="SafariTest">
+        <parameter name="browser" value="safari_sonoma"/>
+        <parameter name="os" value="mac"/>
+        <classes>
+            <class name="com.bs.HackathonTests"/>
+        </classes>
+    </test>
+</suite>
