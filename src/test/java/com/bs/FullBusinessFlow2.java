@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BSTest2 {
+public class FullBusinessFlow2 {
     WebDriver driver;
 
     @AfterTest
